@@ -1,36 +1,68 @@
+
+<!--
+Sempre iniciar um projeto com DOCTYPE
+Aqui define o tipo de documento que será processado pelo navegador
+-->
 <!DOCTYPE html>
+
+<!--
+Abertura da tag html
+Início da página
+-->
 <html lang="pt-BR">
+
+<!--
+Abertura da tag head
+Aqui definimos os metadados e configurações iniciais da página
+Dentro do head importaremos o css, js, titulo, favicon da página, etc..
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professorando</title>
 </head>
-<body >
+<!--
+Abertura da tag body
+Aqui vem o corpo do nosso site (tudo o que aparece no site)
+-->
+<body>
+    <!-- header -> tag semantica para cabeçalho -->
     <header style="background-color: rgba(255, 255, 0, 0.269);">
+        <!-- exemplo de uso tag span -->
         <span style="color: rgb(255, 0, 0);">Título</span>
+        <!-- exemplo de uso tag img -->
         <img style="width: 200px; height: 200px;" src="./login2.png" alt="imagem de teste">
+        <!-- exemplo de uso tag p (parágrafo) -->
         <p>COM COR DE FUNDO 1</p>
+
+        <!-- tag br para pular linha (quebra de linha) -->
         <br>
+
+        <!-- tag ul para iniciar a criação de lista -->
         <ul>
+            <!-- tag li para listas ordenáveis (com figurinhas na frente) -->
             <li style="list-style-type: regex ;">Item 01 da lista</li>
             <li style="list-style-type: regex ;">Item 02 da lista</li>
             <li style="list-style-type: regex ;">Item 03 da lista</li>
         </ul>
         <ul>
+            <!-- tag ol para listas NÃO ordenáveis -->
             <ol>Item OL 01</ol>
             <ol>Item OL 02</ol>
             <ol>Item OL 03</ol>
         </ul>
     </header>
+    <!-- tag hr é usada para traçar uma linha vertical -->
     <hr>
+    <!-- main -> tag semantica para parte principal do site -->
     <main>
         <p>SEM COR DE FUNDO</p>
+        <!-- exemplo de uso tag h1 ( normalmente usado para títulos e subitítulos ) -->
         <h1 style="border: 2px solid red; border-radius: 25px;">Como fazer uma página web</h1>
         <p>Primeiro vamos fazer nosso HTML</p>
         <p>Depois vamos aprender CSS</p>
 
-
-
+        <!-- exemplo de uso tag h2, h3,... ( normalmente usados para títulos e subtítulos ) -->
         <h2>Page title h2</h2>
         <h3>Page title h3</h3>
         <h4>Page title h4</h4>
@@ -42,6 +74,7 @@
 
 
     </main>
+    
     <br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 </body>
